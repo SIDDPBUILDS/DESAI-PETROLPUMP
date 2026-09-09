@@ -1,0 +1,6 @@
+{
+  "name": "Desai Petrol Pump",
+  "description": "Desai Petrol Pump (IndianOil – Desai Petroleums) on Jamkhandi - Athani Rd, Abbihal, Athani, Karnataka. Petrol and Diesel fuel station.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
