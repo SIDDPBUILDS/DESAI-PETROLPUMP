@@ -1,5 +1,5 @@
 import { type MouseEvent } from 'react';
-import { Phone, MapPin, Navigation, ExternalLink, ArrowUp, ShieldCheck, FileCode } from 'lucide-react';
+import { Phone, MapPin, Navigation, ExternalLink, ArrowUp, ShieldCheck } from 'lucide-react';
 import { STATION_INFO } from '../types';
 import { IndianOilLogo } from './IndianOilLogo';
 
@@ -65,17 +65,6 @@ export function Footer() {
                   </a>
                 </li>
               ))}
-              <li className="pt-2">
-                <a
-                  href="/desai-petrol-pump.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs text-[#FF8C38] hover:text-white transition-colors"
-                >
-                  <FileCode className="w-3.5 h-3.5" />
-                  <span>Standalone HTML Website</span>
-                </a>
-              </li>
             </ul>
           </div>
 

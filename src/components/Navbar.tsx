@@ -1,5 +1,5 @@
 import { useState, useEffect, type MouseEvent } from 'react';
-import { Phone, Navigation, Menu, X, MapPin, FileCode } from 'lucide-react';
+import { Phone, Navigation, Menu, X, MapPin } from 'lucide-react';
 import { STATION_INFO } from '../types';
 import { IndianOilLogo } from './IndianOilLogo';
 
@@ -111,20 +111,7 @@ export function Navbar() {
             </div>
 
             {/* Desktop Action Buttons */}
-            <div className="hidden md:flex items-center gap-2.5">
-              <a
-                href="/desai-petrol-pump.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                id="navbar-html-view-btn"
-                aria-label="Open Standalone HTML Website"
-                className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-bold text-[#002855] hover:text-[#F37021] bg-slate-100 hover:bg-orange-50 rounded-lg border border-slate-200 hover:border-orange-300 transition-all"
-                title="View Pure HTML Standalone Website"
-              >
-                <FileCode className="w-3.5 h-3.5 text-[#F37021]" />
-                <span>HTML Site</span>
-              </a>
-
+            <div className="hidden md:flex items-center gap-3">
               <a
                 href={STATION_INFO.phoneTel}
                 id="navbar-call-btn"
@@ -195,17 +182,6 @@ export function Navbar() {
             </div>
 
             <div className="pt-3 border-t border-slate-100 flex flex-col gap-2.5">
-              <a
-                href="/desai-petrol-pump.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                id="mobile-menu-html-btn"
-                className="flex items-center justify-center gap-2 w-full py-2.5 border border-orange-200 bg-orange-50/50 rounded-lg text-sm font-bold text-[#002855] hover:bg-orange-50 transition-colors"
-              >
-                <FileCode className="w-4 h-4 text-[#F37021]" />
-                <span>Open Standalone HTML Website</span>
-              </a>
-
               <a
                 href={STATION_INFO.phoneTel}
                 id="mobile-menu-call-btn"
