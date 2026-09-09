@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,12 +9,58 @@
     <meta property="og:description" content="Desai Petrol Pump (IndianOil – Desai Petroleums) on Jamkhandi - Athani Rd, Abbihal, Athani, Karnataka. Petrol and Diesel fuel station." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#002855" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cabinet+Grotesk:wght@700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- JSON-LD LocalBusiness Schema for Google Search & Maps -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "GasStation",
+      "name": "Desai Petrol Pump",
+      "alternateName": "IndianOil – Desai Petroleums",
+      "image": [
+        "/assets/images/station_photo_1.jpg",
+        "/assets/images/station_photo_2.jpg"
+      ],
+      "telephone": "+919448637384",
+      "url": "https://locator.iocl.com/indianoil-desai-petroleums-petrol-pump-abbihal-belgaum-204827/Home",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sy No 1632, 1, Jamkhandi - Athani Rd",
+        "addressLocality": "Abbihal, Athani",
+        "addressRegion": "Karnataka",
+        "postalCode": "591304",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 16.729706,
+        "longitude": 75.055661
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.0",
+        "reviewCount": "53"
+      }
+    }
+    </script>
   </head>
   <body class="bg-[#F8FAFC] text-slate-800 antialiased font-sans">
-    <div id="root"></div>
+    <div id="root">
+      <!-- Semantic HTML initial content -->
+      <noscript>
+        <header style="background:#002855;color:#fff;padding:20px;text-align:center;">
+          <h1>Desai Petrol Pump (IndianOil – Desai Petroleums)</h1>
+          <p>Jamkhandi - Athani Rd, Abbihal, Athani, Karnataka 591304</p>
+          <p>Phone: <a href="tel:09448637384" style="color:#FF8C38;font-weight:bold;">094486 37384</a></p>
+          <p>Rating: 4.0 ★ (53 Google Reviews) · Petrol &amp; Diesel Available</p>
+          <p>Made by <strong>SIDDBUILDS</strong></p>
+        </header>
+      </noscript>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
